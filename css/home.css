@@ -1,0 +1,129 @@
+/*Home Page CSS*/
+header{
+	background: url(../images/background02.jpg);
+	background-position: 0px -30px;
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+#heading-box{
+	max-width: 700px;
+	margin: 0px auto;
+	position: relative;
+	top: 450px;
+	background: #fff;
+	padding: 22px 20px 22px 20px;
+	border-radius: 2px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 5px 0px rgba(0, 0, 0, 0.23);
+}
+
+#heading-box h1{
+	text-align: center;
+	font-family: Mos;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #212121;
+}
+
+article{
+	margin-top: 150px;
+	
+}
+
+#home-left-panel{
+	float: left;
+	width: 55%;
+}
+
+#home-left-panel h2{
+	font-family: UbuntuRegular;
+	font-size: 26px;
+	color: #E42217;
+	padding-bottom: 20px;
+}
+
+#home-left-panel p{
+	padding-left: 30px;
+	font-family: Sourcesans;
+	font-size: 20px;
+	line-height: 1.2em;
+	color: #111;
+	margin-bottom: 50px;
+}
+
+.venue-para{
+	margin-bottom: 15px !important;
+}
+
+.about-venue{
+	margin-left: 30px;
+	background: #E42217;
+	color: #fff;
+	font-family: Hind;
+	font-size: 16px;
+	padding: 5px 25px 5px 25px;
+	border: none;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+#home-right-panel{
+	float: right;
+	width: 40%;
+}
+
+#keynoteBox{
+	width: 100%;
+	background: #B51B1B;
+	padding: 20px 10px 20px 10px;
+}
+
+#keynoteBox h3, #dateBox h3{
+	color: #fff;
+	font-family: UbuntuRegular;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#keynoteBox ol, #dateBox ul{
+	margin-top: 20px;
+	padding-left: 50px;
+	color: #fff;
+}
+
+#keynoteBox ol li, #dateBox ul li{
+	font-family: Ubuntu;
+	font-size: 16px;
+	padding-bottom: 15px; 
+}
+
+#keynoteBox ol li span, #dateBox ul li span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#dateBox{
+	margin-top: 20px;
+	width: 100%;
+	background: #B51B1B;
+	padding: 20px 10px 20px 10px;
+}
+
+#dateBox ul{
+	list-style: none;
+}
+
+.brochure{
+	text-align: center;
+	font-family: Fj;
+	font-size: 26px;
+	color: #e74c3c;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.brochure:hover{
+	color: #f00;
+}
